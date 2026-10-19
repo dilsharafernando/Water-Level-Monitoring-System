@@ -142,7 +142,7 @@ public class Watertank extends JFrame{
         
         controlRoom = new ControlRoom();
         controlRoom.addObserver(new AlarmObserver(this));
-        controlRoom.addObserver(new SMSSenderObserver(this, "+94769403626"));
+        controlRoom.addObserver(new SMSSenderObserver(this, "+940123456789"));
         
         levelSlider.addChangeListener(new ChangeListener() {
             public void stateChanged(ChangeEvent e) {
